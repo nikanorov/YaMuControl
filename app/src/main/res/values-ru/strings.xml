@@ -1,0 +1,20 @@
+<resources>
+    <string name="permission_dialog_title">Требуется разрешение</string>
+    <string name="notification_access">Пожалуйста, разрешите \"Доступ к уведомлениям\" для приложения. Это действие обязательно для работы приложения.</string>
+    <string name="go_to_settings_button">Перейти в настройки</string>
+    <string name="notification_permission_failed">Не удалось открыть настройки \"Доступ к уведомлениям\". Пожалуйста, разрешите \"Доступ к уведомлениям\" вручную в настройках Android.</string>
+    <string name="button_quit">Выход</string>
+    <string name="action_like">Нравится</string>
+    <string name="action_block">Заблокировать</string>
+
+    <string name="info_text"><![CDATA[<h2>Как настроить</h2>
+    <ol><li><b>Доступ к уведомлениям</b>. Разрешите "Доступ к уведомлениям" для приложения в настройках Android.</li>
+    <li><b>Включите режим разработчика в AA</b>. Перейдите в настройки Android Auto. Нажмите на "Сведения о версиях и разрешениях" 10 раз.</li>
+    <li><b>Включите в AA "Неизвестные источники"</b>. Выберите "Для разработчиков" в меню Настроек Android Auto. Включите "Неизвестные источники'.</li></ol>
+<h2>Как использовать</h2>
+    <ol><li>Откройте Яндекс Музыку и включите песню или плейлист.</li>
+    <li>Запустите Android Auto, а затем в Android  Auto приложение YaMuControl.</li>
+
+<p>Больше деталей на GitHub: <a href="https://github.com/nikanorov/YaMuControl">https://github.com/nikanorov/YaMuControl</a></p>
+]]></string>
+</resources>

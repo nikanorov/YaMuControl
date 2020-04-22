@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">YaMuControl</string>
+    <string name="permission_dialog_title">Permission required</string>
+    <string name="notification_access">Please enable the necessary \"Notification access\" option for the app. This permission is required for the app to work properly.</string>
+    <string name="go_to_settings_button">Go to settings</string>
+    <string name="notification_permission_failed">Failed to open notification permission settings. Please allow app to access notifications manually in Android settings.</string>
+    <string name="button_quit">Exit</string>
+    <string name="action_like">Like</string>
+    <string name="action_block">Block</string>
+
+    <string name="info_text"><![CDATA[<h2>How to setup</h2>
+    <ol><li><b>Notification access</b>. Enable "Notification access" for the app in Android settings.</li>
+    <li><b>Enable AA developer mode</b>. Go to the Android Auto app settings. Tap the Version and permission info section 10 times.</li>
+    <li><b>Enable AA unknown sources</b>. Select Developer settings from Android Auto overflow menu. Enable "Unknown sources'.</li></ol>
+<h2>How to use</h2>
+    <ol><li>Open Yandex Music app and play a track.</li>
+    <li>Launch Android Auto and run YaMuControl app.</li>
+
+<p>Check more details on GitHub: <a href="https://github.com/nikanorov/YaMuControl">https://github.com/nikanorov/YaMuControl</a></p>
+]]></string>
+</resources>

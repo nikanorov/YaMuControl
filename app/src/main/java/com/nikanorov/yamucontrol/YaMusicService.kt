@@ -145,7 +145,9 @@ class YaMusicService : MediaBrowserServiceCompat() {
         object : MediaControllerCompat.Callback() {
             override fun onPlaybackStateChanged(playbackState: PlaybackStateCompat) {
                 session.setPlaybackState(getModifiedPlaybackState(playbackState))
-                session.setMetadata(mController!!.metadata)
+                mController?.metadata?.let {
+                    session.setMetadata(it)
+                }
             }
 
             override fun onMetadataChanged(metadata: MediaMetadataCompat) {
